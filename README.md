@@ -14,7 +14,7 @@ View [the LICENSE file](LICENSE).
 
 After having cloned or downloaded this repository, in Powershell, cd the project's root directory, then launch:
 
-    docker build -t aipenr6downloader:1.0 -f AipEnr6Downloader.Dockerfile .
+    docker build -t aipenr6downloader:1.0 .
 
 ## Run
 
