@@ -14,13 +14,13 @@ View [the LICENSE file](LICENSE).
 
 After having cloned or downloaded this repository, in Powershell, cd the project's root directory, then launch:
 
-    docker build -t aipenr6downloader:1.0 .
+    docker build -t starnutoditopo/aipenr6downloader:1.0.0 .
 
 ## Run
 
 After having built the Docker image, in your working folder, create a folder called Data, with a subfolder named AIP, then launch:
 
-    docker run -it --rm -v "${PWD}/Data:/Data" aipenr6downloader:1.0 /usr/local/bin/python AipEnr6Downloader.py -u <username> -p <password>
+    docker run -it --rm -v "${PWD}/Data:/Data" starnutoditopo/aipenr6downloader:1.0.0 /usr/local/bin/python AipEnr6Downloader.py -u <username> -p <password>
 
 Find the downloaded files in ./Data/AIP.
 

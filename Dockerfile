@@ -22,7 +22,7 @@ RUN apt-get -yqq install unzip curl \
 COPY ./AipEnr6Downloader.py .
 
 # Build:
-#	docker build -t aipenr6downloader:1.0 .
+#	docker build -t starnutoditopo/aipenr6downloader:1.0.0 .
 #
 # Run:
-#   docker run -it --rm -v "${PWD}/Data:/Data" aipenr6downloader:1.0 /usr/local/bin/python AipEnr6Downloader.py -u <username> -p <password>
+#   docker run -it --rm -v "${PWD}/Data:/Data" starnutoditopo/aipenr6downloader:1.0.0 /usr/local/bin/python AipEnr6Downloader.py -u <username> -p <password>
