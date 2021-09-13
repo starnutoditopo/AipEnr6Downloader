@@ -8,7 +8,7 @@ To use this utility, you must be registered on the [ENAV site](https://www.enav.
 
 # License
 
-View [the LICENSE file](LICENSE.txt).
+View [the LICENSE file](LICENSE).
 
 # Build the docker image
 
