@@ -2,6 +2,10 @@
 
 A simple utility to download [ENR-6 maps](https://www.enav.it/enavWebPortalStatic/AIP/AIP/enr/enr6/ENR6.htm) from ENAV, AIP, based on [Docker](https://www.docker.com/) with [Python 3.9.7 slim buster](https://hub.docker.com/_/python), [Selenium](https://selenium-python.readthedocs.io/index.html) and [ChromeDriver](https://chromedriver.chromium.org/).
 
+**Dismission note**
+
+Due to changes to the ENAV's site, this project doesn't work any more and has been dismissed. 
+
 # License
 
 View [the LICENSE file](LICENSE).
